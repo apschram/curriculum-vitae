@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alexander Schram — Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Quick links: CV (PDF), GitHub, LinkedIn.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="head">
+      <h1>Alexander Pieter Schram</h1>
+      <p>Sports Analytics · Tracking &amp; Modeling</p>
+    </header>
+
+    <section class="links">
+      <!-- Update hrefs to your actual URLs -->
+      <a class="btn" href="Alexander_Schram_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+      <a class="btn" href="https://github.com/yourname/cv-generator" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/alexander-schram-17ab6265/" target="_blank" rel="noopener">LinkedIn</a>
+    </section>
+
+    <section class="meta">
+      <p>Prefer email? <a href="mailto:apschram@gmail.com">apschram@gmail.com</a></p>
+      <p class="note">This CV was generated with Python. No trackers, no cookies.</p>
+      <p class="small" id="stamp"></p>
+    </section>
+  </main>
+
+  <script>
+    // Simple “last updated” note based on this file’s build date.
+    const d = new Date(document.lastModified);
+    const stamp = document.getElementById('stamp');
+    stamp.textContent = `Last updated ${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  </script>
+</body>
+</html>
