@@ -16,12 +16,12 @@ import qrcode
 import os
 
 # -------------------------------------------------------------------
-# CONFIG — set these to your own URLs
+# CONFIG
 # -------------------------------------------------------------------
-LANDING_URL  = "https://yourname.github.io/alex-cv/"     # QR points here
-PDF_URL      = "https://yourname.github.io/alex-cv/Alexander_Schram_CV.pdf"
+LANDING_URL  = "https://apschram.github.io/curriculum-vitae/"     # QR points here
+PDF_URL      = "https://apschram.github.io/curriculum-vitae/Alexander_Schram_CV.pdf"
 LINKEDIN_URL = "https://www.linkedin.com/in/alexander-schram-17ab6265/"
-GITHUB_URL   = "https://github.com/yourname/cv-generator"
+GITHUB_URL   = "https://github.com/apschram/curriculum-vitae"
 
 OUTPUT_PDF   = "Alexander_Schram_CV.pdf"
 ACCENT       = colors.HexColor("#0B7A75")
